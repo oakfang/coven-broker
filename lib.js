@@ -18,7 +18,20 @@ const printConsole = ({ room, type, origin, target }) =>
 const printJson = ({ room, type, origin, target }) =>
   console.log(JSON.stringify({ room, type, origin, target }));
 
-const startServer = (useJSON, port) =>
-  createCovenServer({ port }, useJSON ? printJson : printConsole);
+const dontPrint = () => null;
+
+const getPrinter = printer => {
+  switch (printer) {
+    case "json":
+      return printJson;
+    case "silent":
+      return dontPrint;
+    default:
+      return printConsole;
+  }
+};
+
+const startServer = (printer, port) =>
+  createCovenServer({ port }, getPrinter(printer));
 
 module.exports = startServer;
