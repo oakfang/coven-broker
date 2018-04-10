@@ -1,6 +1,6 @@
 {
   "name": "coven-broker",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A broker CLI for coven p2p meshes",
   "main": "index.js",
   "repository": "git@github.com:oakfang/coven-broker.git",
@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "chalk": "^2.3.2",
-    "coven": "^0.3.1",
+    "coven": "^0.3.2",
     "yargs": "^11.0.0"
   }
 }

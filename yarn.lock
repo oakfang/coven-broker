@@ -58,9 +58,9 @@ core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
 
-coven@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/coven/-/coven-0.3.1.tgz#bd5d72313bbd30b44b20ac21cc52881e522e5fe3"
+coven@^0.3.2:
+  version "0.3.2"
+  resolved "https://registry.yarnpkg.com/coven/-/coven-0.3.2.tgz#e84edd09561cd71ab79308934a3081dbc3913924"
   dependencies:
     simple-peer "^8.1.1"
     uuid "^3.1.0"
