@@ -58,10 +58,10 @@ core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
 
-coven@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/coven/-/coven-0.4.0.tgz#07b399a242c8f598db7f3cf438d9e98f0cbbda84"
-  integrity sha512-KGM6N+eTbBcL8mBqmGCFrPp5A8OxQllZ7xAJ1y/0orqtpW0xmzCl2tbvbH05eSyk8P0KU/Wpw4azPNiIAvCLqg==
+coven@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/coven/-/coven-0.4.1.tgz#4b25d3f38ef5344d0bc8c2f74a088000e3ba59e1"
+  integrity sha512-zPLPEe+grhvth2pwQqxZ1Kyqzp5M1lao4Xvv3Y2j11TS7YEZOV82kpCVxYXMloEgt9fUbSTwdNciyJyCjB5fzA==
   dependencies:
     simple-peer "^8.5.0"
     uuid "^3.3.2"
