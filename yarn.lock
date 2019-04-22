@@ -58,13 +58,14 @@ core-util-is@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/core-util-is/-/core-util-is-1.0.2.tgz#b5fd54220aa2bc5ab57aab7140c940754503c1a7"
 
-coven@^0.3.5:
-  version "0.3.5"
-  resolved "https://registry.yarnpkg.com/coven/-/coven-0.3.5.tgz#363c1d65cd90b2b2d59001e11f8e4d651d624332"
+coven@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/coven/-/coven-0.4.0.tgz#07b399a242c8f598db7f3cf438d9e98f0cbbda84"
+  integrity sha512-KGM6N+eTbBcL8mBqmGCFrPp5A8OxQllZ7xAJ1y/0orqtpW0xmzCl2tbvbH05eSyk8P0KU/Wpw4azPNiIAvCLqg==
   dependencies:
-    simple-peer "^8.1.1"
-    uuid "^3.1.0"
-    ws "^3.2.0"
+    simple-peer "^8.5.0"
+    uuid "^3.3.2"
+    ws "^6.2.1"
 
 cross-spawn@^5.0.1:
   version "5.1.0"
@@ -186,6 +187,11 @@ ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
 
+now@^15.0.6:
+  version "15.0.6"
+  resolved "https://registry.yarnpkg.com/now/-/now-15.0.6.tgz#47cdf25c9538cee1c16101058786a59758071ea8"
+  integrity sha512-kX58WG6ioe8guduIUFW+9yTvQt5XcYQsuSQJL1J1XLpWeJIAy951Bkfvli/tLdMXB/lNwlOQUnMyL4zobBSqlA==
+
 npm-run-path@^2.0.0:
   version "2.0.2"
   resolved "https://registry.yarnpkg.com/npm-run-path/-/npm-run-path-2.0.2.tgz#35a9232dfa35d7067b4cb2ddf2357b1871536c5f"
@@ -288,9 +294,10 @@ signal-exit@^3.0.0:
   version "3.0.2"
   resolved "https://registry.yarnpkg.com/signal-exit/-/signal-exit-3.0.2.tgz#b5fdc08f1287ea1178628e415e25132b73646c6d"
 
-simple-peer@^8.1.1:
+simple-peer@^8.5.0:
   version "8.5.0"
   resolved "https://registry.yarnpkg.com/simple-peer/-/simple-peer-8.5.0.tgz#23204746ec36b689798e4fd81d70210a855ef23f"
+  integrity sha512-L901ld7sqQv7c8ehThEZGIDqgBrTC1iJLlcqFlqtH3YhUb+S8uBjdQpzaJGth+NkSoWNJSsXjNyWbzaM99cMQg==
   dependencies:
     debug "^3.1.0"
     get-browser-rtc "^1.0.0"
@@ -341,17 +348,14 @@ supports-color@^5.3.0:
   dependencies:
     has-flag "^3.0.0"
 
-ultron@~1.1.0:
-  version "1.1.1"
-  resolved "https://registry.yarnpkg.com/ultron/-/ultron-1.1.1.tgz#9fe1536a10a664a65266a1e3ccf85fd36302bc9c"
-
 util-deprecate@~1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/util-deprecate/-/util-deprecate-1.0.2.tgz#450d4dc9fa70de732762fbd2d4a28981419a0ccf"
 
-uuid@^3.1.0:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.2.1.tgz#12c528bb9d58d0b9265d9a2f6f0fe8be17ff1f14"
+uuid@^3.3.2:
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.3.2.tgz#1b4af4955eb3077c501c23872fc6513811587131"
+  integrity sha512-yXJmeNaw3DnnKAOKJE51sL/ZaYfWJRl1pK9dr19YFCu0ObS231AB1/LbqTKRAQ5kw8A90rA6fr4riOUpTZvQZA==
 
 which-module@^2.0.0:
   version "2.0.0"
@@ -370,13 +374,12 @@ wrap-ansi@^2.0.0:
     string-width "^1.0.1"
     strip-ansi "^3.0.1"
 
-ws@^3.2.0:
-  version "3.3.3"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-3.3.3.tgz#f1cf84fe2d5e901ebce94efaece785f187a228f2"
+ws@^6.2.1:
+  version "6.2.1"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-6.2.1.tgz#442fdf0a47ed64f59b6a5d8ff130f4748ed524fb"
+  integrity sha512-GIyAXC2cB7LjvpgMt9EKS2ldqr0MTrORaleiOno6TweZ6r3TKtoFQWay/2PceJ3RuBasOHzXNn5Lrw1X0bEjqA==
   dependencies:
     async-limiter "~1.0.0"
-    safe-buffer "~5.1.0"
-    ultron "~1.1.0"
 
 y18n@^3.2.1:
   version "3.2.1"

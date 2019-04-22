@@ -32,6 +32,6 @@ const getPrinter = printer => {
 };
 
 const startServer = (printer, port) =>
-  createCovenServer({ port }, getPrinter(printer));
+  createCovenServer({ port, onMessage: getPrinter(printer) });
 
 module.exports = startServer;
