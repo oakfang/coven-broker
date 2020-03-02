@@ -7,9 +7,8 @@
   "author": "Alon Niv <alon.n@seebo.com>",
   "license": "MIT",
   "scripts": {
-    "start": "node index.js -p 80 --silent",
-    "serve": "node index.js",
-    "deploy": "npm publish && now"
+    "start": "node index.js --silent",
+    "serve": "node index.js"
   },
   "bin": {
     "coven-broker": "./index.js"

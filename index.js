@@ -2,7 +2,7 @@
 const startServer = require("./lib");
 const { json, port, silent } = require("yargs")
   .usage("Usage: $0 [--json/--silent] [--port=1234]")
-  .default({ port: 4000, json: false, silent: false })
+  .default({ port: +process.env.PORT || 4000, json: false, silent: false })
   .boolean("json")
   .describe("json", "Print JSON encoded log messages")
   .boolean("silent")
@@ -12,4 +12,4 @@ const { json, port, silent } = require("yargs")
   .help("h")
   .alias("h", "help").argv;
 
-startServer(json ? "json" : silent ? "silent" : null, port);
+  startServer(json ? "json" : silent ? "silent" : null, port);
